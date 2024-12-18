@@ -2,8 +2,8 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <div className=' border border-red-600 relative h-36'>
-      <div className='flex justify-between items-center w-full h-36 mix-blend-exclusion z-50 top-0 left-0 fixed px-10 border'>  
+    <div className='w-full h-36'>
+      <div className='flex justify-between items-center w-full max-w-7xl h-36 mix-blend-exclusion z-50 top-0  fixed '>  
         <div className='font-inter font-bold text-lg'>Cultivate</div>
         <div className='flex gap-20 font-inter'>
           <ul className='max-w-xs hidden sm:flex'>
@@ -27,7 +27,9 @@ const Navbar = () => {
 
       </div>
       </div>
-    </div>
+      </div>
+
+
   )
 }
 

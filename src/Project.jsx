@@ -15,7 +15,7 @@ const Project = () => {
  
   
   return (
-    <div className='m-auto border'>
+    <div className='m-auto'>
       <div className='py-20'>
         <h2 className='tracking-heroSpacing font-inter font-semibold text-3xl'>Project</h2>
         <h3 className='text-2xl'>section</h3>

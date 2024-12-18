@@ -9,27 +9,15 @@ import Contact from './Contact.jsx'
 import Footer from './components/Footer.jsx'
 const App = () => {
   return (
-    <div className='m-auto max-w-7xl px-5'>
+    <>
+      <div className='m-auto max-w-7xl px-5 py-10'>
         <NavBar/>
-     <Hero/>
-      <About/>
-      <Project/>
-      <Designing/>
-      <Skills/>
-
-
-{/*   
-
-
-     
-      <Contact/>
-  
- 
-     
-     
-      <Footer/> */}
- 
-    </div>
+        <Hero/>
+        <About/>
+        <Project/>
+        <Designing/>
+      </div>
+    </>
   )
 }
 
