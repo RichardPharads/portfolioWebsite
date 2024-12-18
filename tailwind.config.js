@@ -14,7 +14,7 @@ export default {
         'custom-gradient': 'linear-gradient(to right, #FF0000 10%, #0E0E0E 100%)',
       },
       letterSpacing:{
-        'heroSpacing': '20px',
+        'heroSpacing': '1.2500rem',
       },
       lineHeight: {
         heroLine: '117px'
