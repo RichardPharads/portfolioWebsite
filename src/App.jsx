@@ -9,7 +9,7 @@ import Contact from './Contact.jsx'
 import Footer from './components/Footer.jsx'
 const App = () => {
   return (
-    <div className='m-auto max-w-7xl px-10'>
+    <div className='m-auto max-w-7xl px-5'>
         <NavBar/>
      <Hero/>
       <About/>

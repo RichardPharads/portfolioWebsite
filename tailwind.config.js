@@ -14,10 +14,10 @@ export default {
         'custom-gradient': 'linear-gradient(to right, #FF0000 10%, #0E0E0E 100%)',
       },
       letterSpacing:{
-        'heroSpacing': '1.2500rem',
+        'heroSpacing': '0.2rem',
       },
       lineHeight: {
-        heroLine: '117px'
+        heroLine: '117%'
       },
       width:{
         heroImage: '1240px'
@@ -27,6 +27,9 @@ export default {
       },
       backgroundColor:{
         redBg: '#FF0000'
+      },
+      fontSize:{
+        
       }
     },
   },

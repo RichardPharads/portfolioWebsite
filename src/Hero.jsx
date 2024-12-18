@@ -5,7 +5,7 @@ const Hero = () => {
     <div className='min-h-lvh  w-full'>
       <div>
         <div className='flex flex-col items-center gap-10 py-20'>
-          <h1 className='font-inter  sm:text-6xl md:text-8xl uppercase tracking-heroSpacing text-center'>Creativity  <br />must <br /> outdo</h1>
+          <h1 className='font-inter text-7xl md:font-red uppercase leading-heroLine tracking-heroSpacing text-center'>Creativity  <br />must <br /> outdo</h1>
           <button className='bg-white text-black py-2 px-10 w-fit font-inter font-semibold'>Get in touch</button>
         </div>
         

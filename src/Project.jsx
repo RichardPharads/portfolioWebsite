@@ -15,13 +15,13 @@ const Project = () => {
  
   
   return (
-    <div className='m-auto border px-10'>
+    <div className='m-auto border'>
       <div className='py-20'>
         <h2 className='tracking-heroSpacing font-inter font-semibold text-3xl'>Project</h2>
         <h3 className='text-2xl'>section</h3>
       </div>
       <div className='text-right  my-20'>
-        <h4 className='text-1xl font-light md:text-3xl'>Programming</h4>
+        <h4 className='text-xl font-light md:text-3xl'>Programming</h4>
         <h2 className='font-inter text-5xl md:text-8xl'>Experience</h2>
       </div>
 
