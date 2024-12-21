@@ -2,7 +2,7 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <div className='w-full '>
+    <div className='w-full'>
       <div>
         <div className='flex flex-col items-center gap-10'>
           <h1 className='font-inter text-5xl sm-text-6xl md:text-7xl lg:text-8xl uppercase leading-heroLine tracking-heroSpacing text-center'>Creativity  <br />must <br /> outdo</h1>
@@ -13,8 +13,8 @@ const Hero = () => {
      
       </div>
 
-      <div className='bg-white w-full h-60 sm:h-96 md:h-heroImage'>
-          <img src="" alt="" />
+      <div className='relative w-full bg-white  ' style={{ paddingBottom: '56.25%' /* 16:9 aspect ratio */ }}>
+        <img className='absolute top-0 left-0 w-full h-full object-cover'  alt="Hero" />
       </div>
     </div>
   )

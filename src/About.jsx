@@ -1,5 +1,7 @@
 import React from 'react'
 import cultivateVid from './assets/cultivate.mp4'
+import chillGuy from './assets/chill.png'
+
 const About = () => {
   return (
     <div className='w-full '>
@@ -8,10 +10,12 @@ const About = () => {
         <h3 className='text-2xl'>section</h3>
       </div>
 
-      <div className='flex flex-col sm:flex-row border '>
-        <div className='border h-auto min-h-52 w-full'></div>
-        <div className='flex items-center justify-center w-full sm:max-w-sm'>
-          <video className='w-full' src={cultivateVid} autoPlay loop controls></video>
+      <div className='flex flex-col sm:flex-row gap-10 '>
+        <div className=' w-full h-auto'>
+          <img className='w-full' src={chillGuy} alt="" />
+        </div>
+        <div className='flex items-center justify-center w-full sm:w-1/2 h-auto'>
+          <video className='w-full' src={cultivateVid} autoPlay loop></video>
         </div>
       </div>
 
