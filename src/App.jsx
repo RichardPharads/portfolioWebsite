@@ -16,6 +16,7 @@ const App = () => {
         <About/>
         <Project/>
         <Designing/>
+        <Skills/>
       </div>
     </>
   )

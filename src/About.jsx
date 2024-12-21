@@ -1,6 +1,6 @@
 import React from 'react'
 import cultivateVid from './assets/cultivate.mp4'
-import chillGuy from './assets/chill.png'
+const chillGuy = 'https://images.unsplash.com/photo-1731020131444-c60ef92b3e1e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw2Nnx8fGVufDB8fHx8fA%3D%3D'
 
 const About = () => {
   return (

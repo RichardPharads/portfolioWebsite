@@ -9,7 +9,9 @@ const Project = () => {
    key={data.id}
    title={data.title}
    detail={data.detail}
-   date={data.date} />
+   date={data.date}
+   image={data.image} />
+   
   }
 
  

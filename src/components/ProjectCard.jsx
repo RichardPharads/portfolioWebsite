@@ -3,7 +3,7 @@ import React from 'react'
 const ProjectCard = (props) => {
   return (
     <div className='w-full md:w-5/12'>
-      <div className='relative w-full bg-white border my-10' style={{ paddingBottom: '56.25%' /* 16:9 aspect ratio */ }}>
+      <div className='relative w-full bg-white my-10' style={{ paddingBottom: '56.25%' /* 16:9 aspect ratio */ }}>
         <img className='absolute top-0 left-0 w-full h-full object-cover' src={props.image} alt={props.title} />
       </div>
       

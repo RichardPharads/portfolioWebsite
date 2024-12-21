@@ -26,7 +26,8 @@ export default {
         heroImage:'620px'
       },
       backgroundColor:{
-        redBg: '#FF0000'
+        redBg: '#FF0000',
+        capsul: '#282525'
       },
       fontSize:{
         

@@ -14,7 +14,7 @@ const Hero = () => {
       </div>
 
       <div className='relative w-full bg-white  ' style={{ paddingBottom: '56.25%' /* 16:9 aspect ratio */ }}>
-        <img className='absolute top-0 left-0 w-full h-full object-cover'  alt="Hero" />
+        <img className='absolute top-0 left-0 w-full h-full object-cover'  alt="Hero" src='https://images.unsplash.com/photo-1734418265881-bf6efc0339e0?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw4M3x8fGVufDB8fHx8fA%3D%3D'/>
       </div>
     </div>
   )
