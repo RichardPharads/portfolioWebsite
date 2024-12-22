@@ -4,7 +4,7 @@ const ProjectCard = (props) => {
   return (
     <div className='w-full md:w-5/12'>
       <div className='relative w-full bg-white my-10' style={{ paddingBottom: '56.25%' /* 16:9 aspect ratio */ }}>
-        <img className='absolute top-0 left-0 w-full h-full object-cover' src={props.image} alt={props.title} />
+        <img className='absolute top-0 left-0 w-full h-full object-cover hover:scale-90 duration-300 cursor-crosshair' src={props.image} alt={props.title} />
       </div>
       
       <div className='flex justify-between gap-10'>
