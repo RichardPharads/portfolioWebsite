@@ -1,9 +1,12 @@
 import React from 'react'
 import menu from '../assets/menu.png'
+import NavMenuBar from './NavMenuBar'
 const Navbar = () => {
   return (
     <div className='w-full h-36'>
-      <div className='flex justify-between items-center w-full max-w-7xl h-36 mix-blend-exclusion z-50 top-0  fixed '>  
+           <NavMenuBar/> 
+      <div className='flex justify-between items-center w-full max-w-7xl h-36 mix-blend-exclusion z-20 top-0  fixed '> 
+   
         <div className='font-inter font-bold text-lg'>Cultivate</div>
        
           <div className='flex gap-10 font-inter'>
