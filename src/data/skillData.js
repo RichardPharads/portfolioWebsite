@@ -1,62 +1,78 @@
+import html from '../assets/html-5.png'
+import figma from '../assets/figma.png'
+import javascript from '../assets/js.png'
+import python from '../assets/python.png'
+import css from '../assets/css.png'
+import react from '../assets/react.png'
+import node from '../assets/node.png'
+import php from '../assets/php.png'
+import adobe from '../assets/ps.png'
+import sql from '../assets/mysql.png'
+import java from '../assets/java.png'
+import bootstrap from '../assets/bootstrap.png'
+import git from '../assets/git.png'
+import xd from '../assets/xd.png' 
+import terminal from '../assets/terminal.png'
+
 const data = [
     {
         name:'HTML',
-        image:'src/assets/html-5.png'
+        image:html
     },
     {
         name:'Figma',
-        image:'src/assets/figma.png'
+        image:figma
     },
     {
         name:'JavaScript',
-        image:'src/assets/js.png'
+        image:javascript
     },  {
         name:'Python',
-        image:'src/assets/python.png'
+        image:python
     }
     ,
     {
         name:'CSS',
-        image:'src/assets/css.png'
+        image:css
     },  {
         name:'React',
-        image:'src/assets/react.png'
+        image:react
     }
     ,
     {
         name:'Node.js',
-        image:'src/assets/node.png'
+        image:node
     },  {
         name:'PHP',
-        image:'src/assets/php.png'
+        image:php
     }
     ,
     {
         name:'Adobe PS',
-        image:'src/assets/ps.png'
+        image:adobe
     },  {
         name:'MySQL',
-        image:'src/assets/mysql.png'
+        image:sql
     }
     ,
     {
         name:'Java',
-        image:'src/assets/java.png'
+        image:java
     },  {
         name:'Bootstrap',
-        image:'src/assets/bootstrap.png'
+        image:bootstrap
     }
     ,
     {
         name:'Git',
-        image:'src/assets/git.png'
+        image:git
     },  {
         name:'Adobe XD',
-        image:'src/assets/xd.png'
+        image:xd
     }
     ,  {
         name:'Terminal',
-        image:'src/assets/terminal.png'
+        image:terminal
     }
 ]
 
