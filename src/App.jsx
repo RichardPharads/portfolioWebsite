@@ -7,11 +7,11 @@ import Designing from './Designing.jsx'
 import Skills from './Skills.jsx'
 import Contact from './Contact.jsx'
 import Footer from './components/Footer.jsx'
-import BGradients from './components/BGradients.jsx'
+
 const App = () => {
   return (
     <>
-      <div className='m-auto max-w-7xl px-5 py-10'>
+      <div className='m-auto max-w-7xl px-5 py-10 relative'>
         
         <NavBar/>
         <Hero/>
@@ -19,7 +19,8 @@ const App = () => {
         <Project/>
         <Designing/>
         <Skills/>
-        <BGradients/>
+       <Contact/>
+
       </div>
     </>
   )
