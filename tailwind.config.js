@@ -11,7 +11,7 @@ export default {
         instrument: "Instrument Sans",
       },
       backgroundImage: {
-        'custom-gradient': 'linear-gradient(to right, #FF0000 10%, #0E0E0E 100%)',
+        'custom-gradient': 'linear-gradient(30deg ,#0E0E0E 10% , #FF0000 50% ,#FF006F 100%)',
       },
       letterSpacing:{
         'heroSpacing': '0.2rem',
@@ -28,6 +28,7 @@ export default {
       backgroundColor:{
         redBg: '#FF0000',
         capsul: '#282525'
+
       },
       fontSize:{
         

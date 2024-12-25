@@ -5,7 +5,7 @@ function NavMenuBar(props) {
 if(!props.active) return null;
 
   return (
-    <div className="w-full h-full bg-black py-8 top-0 left-0 z-50 sm:hidden fixed">
+    <div className="w-full h-full bg-black py-8 top-0 left-0 z-50 sm:hidden fixed overflow-hidden">
       <div className="flex justify-between items-start p-5">
         <ul className="font-inter text-2xl">
           <li className="hover:underline duration-500 hover:scale-110 text-white/60 hover:text-white py-2">
