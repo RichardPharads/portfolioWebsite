@@ -1,14 +1,14 @@
 import React from 'react'
 import SkillsCapsul from './components/SkillsCapsul'
 import data from './data/skillData.js'
-import pdf from './assets/filePDF/MEETUP 10 - E-Cert.pdf'
+import pdf from './assets/filePDF/mongodb_tutorial.pdf'
 
 const Skills = () => {
 
   const handleDownload = () => {
     const link = document.createElement("a");
     link.href = {pdf}; // Replace with the actual path to your PDF
-    link.download = "filename.pdf"; // Optional: name of the downloaded file
+    link.download = "Certificates PDF"; // Optional: name of the downloaded file
     link.click();
     }
 
