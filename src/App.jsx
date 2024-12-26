@@ -22,8 +22,7 @@ const App = () => {
         <h2 className='tracking-heroSpacing font-inter font-semibold text-3xl'>Contact</h2>
         <h3 className='text-2xl'>section</h3>
       </div>
-        <Contact/>
- 
+      <Contact/>
     </>
   )
 }

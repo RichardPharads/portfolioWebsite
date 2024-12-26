@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <div className='pt-20'>
       
-        <div className='w-full h-lvh bg-redBg flex flex-col px-20 gap-32 justify-center'>
+        <div className='w-full h-lvh bg-redBg flex flex-col px-10 gap-32 justify-center'>
           <div className='font-inter font-bold '>
             <p>Richard Parado</p>
             <p>Antipolo City Rizal , Philippines</p>
@@ -14,7 +14,7 @@ const Contact = () => {
           </div>
 
           <div className='ml-auto'>
-            <h3 className='font-inter font-medium text-2xl hover:text-red-300'>Get in <span className='font-inter text-9xl font-bold hover:font-thin duration-500 ease-in-out cursor-grab hover:text-white'>touch</span></h3>
+            <h3 className='font-inter font-medium text-md hover:text-red-300 md:text-2xl'>Get in <span className='font-inter text-6xl md:text-9xl font-bold hover:font-thin duration-500 ease-in-out cursor-grab hover:text-white'>touch</span></h3>
           </div>
 
           <div className='flex gap-1'>
