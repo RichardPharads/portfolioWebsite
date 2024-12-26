@@ -15,7 +15,7 @@ const About = () => {
           <img className='w-full' src={chillGuy} alt="" />
         </div>
         <div className='flex items-center justify-center w-full sm:w-1/2 h-auto'>
-          <video className='w-full' src={cultivateVid} autoPlay loop controls></video>
+          <video className='w-full' src={cultivateVid} autoPlay loop ></video>
         </div>
       </div>
 

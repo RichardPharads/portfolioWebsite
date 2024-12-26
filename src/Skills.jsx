@@ -1,9 +1,18 @@
 import React from 'react'
 import SkillsCapsul from './components/SkillsCapsul'
 import data from './data/skillData.js'
-
+import pdf from './assets/filePDF/MEETUP 10 - E-Cert.pdf'
 
 const Skills = () => {
+
+  const handleDownload = () => {
+    const link = document.createElement("a");
+    link.href = {pdf}; // Replace with the actual path to your PDF
+    link.download = "filename.pdf"; // Optional: name of the downloaded file
+    link.click();
+    }
+
+
 
     function createSkillData(data){
       return (
@@ -50,7 +59,7 @@ const Skills = () => {
               <h2 className='font-instrument font-extralight px-10'><span className=' pr-1'>my</span> <span className='font-inter text-lg'>2024</span> <br /> <span className=' text-3xl capitalize'>achivement</span></h2>
             </div>
             <div>
-              <button className='font-inter text-md text-center border rounded-lg w-full'>View Certificate</button>
+              <button onClick={handleDownload} className='font-inter text-md text-center border rounded-lg w-full'>View Certificate</button>
             </div>
           </div>
 
