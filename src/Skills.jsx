@@ -50,7 +50,7 @@ const Skills = () => {
               <h2 className='font-instrument font-extralight px-10'><span className=' pr-1'>my</span> <span className='font-inter text-lg'>2024</span> <br /> <span className=' text-3xl capitalize'>achivement</span></h2>
             </div>
             <div>
-              <h2 className='font-inter text-md text-center border rounded-lg'>View Certificate</h2>
+              <button className='font-inter text-md text-center border rounded-lg w-full'>View Certificate</button>
             </div>
           </div>
 

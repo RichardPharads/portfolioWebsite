@@ -6,7 +6,7 @@ import Project from './Project.jsx'
 import Designing from './Designing.jsx'
 import Skills from './Skills.jsx'
 import Contact from './Contact.jsx'
-import Footer from './components/Footer.jsx'
+
 
 const App = () => {
   return (
@@ -19,9 +19,11 @@ const App = () => {
         <Project/>
         <Designing/>
         <Skills/>
-       <Contact/>
-
+        <h2 className='tracking-heroSpacing font-inter font-semibold text-3xl'>Contact</h2>
+        <h3 className='text-2xl'>section</h3>
       </div>
+        <Contact/>
+ 
     </>
   )
 }
