@@ -32,7 +32,7 @@ const Contact = React.forwardRef((_, ref) => {
             </span>
           </a>
 
-          <a href="https://www.linkedin.com/in/richard-parado-8a508b32b/" target='_blank' rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/richard-parado-143502274/" target='_blank' rel="noopener noreferrer">
             <span className='w-10 h-10 bg-white grid place-items-center rounded-md'>
               <img className='w-8 h-8' src={linkedin} alt="LinkedIn icon" />
             </span>

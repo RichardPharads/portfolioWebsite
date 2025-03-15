@@ -1,12 +1,12 @@
 import React from 'react'
 import cultivateVid from './assets/cultivate.mp4'
 const chillGuy = 'https://images.unsplash.com/photo-1731020131444-c60ef92b3e1e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw2Nnx8fGVufDB8fHx8fA%3D%3D'
-
+import skillData from './data/skillData'
 const About = () => {
   return (
     <div className='w-full '>
       <div className='py-20'>
-        <h2 className='tracking-heroSpacing font-inter font-semibold text-3xl'>About</h2>
+        <h2 className='tracking-heroSpacing font-inter font-semibold text-3xl'>{}</h2>
         <h3 className='text-2xl'>section</h3>
       </div>
 

@@ -76,4 +76,11 @@ const data = [
     }
 ]
 
+const dataSkills = [
+    {
+        name: "This"
+    }
+]
+
+
 export default data

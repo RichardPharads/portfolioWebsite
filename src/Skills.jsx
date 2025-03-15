@@ -1,14 +1,14 @@
 import React from 'react'
 import SkillsCapsul from './components/SkillsCapsul'
 import data from './data/skillData.js'
-import pdf from './assets/filePDF/mongodb_tutorial.pdf'
+import pdf from '../public/mongodb_tutorial.pdf'
 
 const Skills = () => {
 
   const handleDownload = () => {
     const link = document.createElement("a");
     link.href = {pdf}; // Replace with the actual path to your PDF
-    link.download = "Certificates PDF"; // Optional: name of the downloaded file
+    link.download = "Certificates.pdf"; // Optional: name of the downloaded file
     link.click();
     }
 
@@ -37,13 +37,7 @@ const Skills = () => {
           {data.map(createSkillData)}
         </div>
       </div>
-      <div>
-        <h2 className='font-inter text-4xl mx-20 text-center'>Other Tools</h2>
-        <div className='flex justify-center gap-6 flex-wrap  max-w-5xl m-auto py-20'>
-          
-          {data.map(createSkillData)}
-        </div>
-      </div>
+    
 
 
 
@@ -67,9 +61,10 @@ const Skills = () => {
        
       
       <div className='max-w-lg'>
-        <h2 className='text-2xl '>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h2>
+        <h2 className='text-2xl font-light '>Showcasing my commitment to continuous learning and professional growth:
 
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores velit quod sit accusantium nihil, quia odio delectus enim sint eaque?</p>
+</h2>
+
       </div>
       </div>
 
