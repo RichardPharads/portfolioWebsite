@@ -1,7 +1,8 @@
 import freeboothImage from '../assets/freebooth.png'
 import arcadeThesis from '../assets/ArcadeThesis.png'
 import erpFrontend from '../assets/ERP.png'
-import Dashboard from '../assets/dashboard.png'
+import dashboard from '../assets/dashboard.png'
+
 const projectDetails = [
     {   id:1,
         title: "FreeBooth",
@@ -30,7 +31,7 @@ const projectDetails = [
         title: "Arcangrovion Dashboard",
         detail: 'Artificial Intelligence (AI) - powered platform that provides insights and analytics for Robot.',
         date: 'July - Jan 2024',
-        image: Dashboard
+        image: dashboard
 
     },
 ]
