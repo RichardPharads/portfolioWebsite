@@ -37,7 +37,7 @@ const Designing = forwardRef((props, ref) => {
         <div className='flex items-center justify-center w-full sm:w-1/2 h-auto'>
               <div className='flex flex-col'>
                 <img className='w-full hover:scale-90 duration-300 cursor-crosshair' src={image2} alt="" />
-                <div className='px-20 py-10'>
+                <div className='lg:px-20 w-10/12 py-10'>
                   <h2 className='text-3xl font-inter font-bold'>Ecommerce Design</h2>
                   <h2 className='font-light'>Modern and Elegant Design aim for young stylish people.</h2>
                 </div>
@@ -46,7 +46,7 @@ const Designing = forwardRef((props, ref) => {
 
           <div className='flex items-center justify-center w-full sm:w-1/2 h-auto'>
               <div className='flex sm:flex-col flex-col-reverse'>
-                <div className='px-20 py-10'>
+                <div className='lg:px-20 py-10 w-10/12'>
                   <h2 className='text-3xl font-inter font-bold'>Modern Ai Landing Page Design</h2>
                   <h2 className='font-light'>Artifical Intelligence Modern mockup design best for Startup landing.</h2>
                 </div>

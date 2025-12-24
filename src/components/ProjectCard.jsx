@@ -7,9 +7,9 @@ const ProjectCard = (props) => {
         <img className='absolute items-center w-full h-full object-cover hover:scale-90 duration-300 cursor-crosshair' src={props.image} alt={props.title} />
       </div>
       
-      <div className='flex justify-between gap-10'>
+      <div className='flex justify-between gap-10 flex-col lg:flex-row'>
         <h2 className='text-3xl'>{props.title}</h2>
-        <div className='text-right'>
+        <div className='lg:text-right'>
           <p className=''>{props.detail}</p>
           <p className='text-sm font-light py-4'>{props.date}</p>
         </div>
