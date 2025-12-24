@@ -30,12 +30,18 @@ export default {
         capsul: '#282525'
 
       },
-      fontSize:{
-        
-      },
-
+      animation: {
+    'hue-spin': 'hueRotate 10s linear infinite',
     },
+      keyframes: {
+        hueRotate: {
+          '0%': { filter: 'hue-rotate(0deg)' },
+          '100%': { filter: 'hue-rotate(360deg)' },
+            },
+        },
   },
   plugins: [],
-}
-
+   corePlugins: {
+    filter: true,
+  },
+}}

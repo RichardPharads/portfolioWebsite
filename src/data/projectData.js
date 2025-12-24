@@ -4,31 +4,31 @@ import erpFrontend from '../assets/ERP.png'
 import Dashboard from '../assets/Dashboard.png'
 const projectDetails = [
     {   id:1,
-        title: "BPI - Project SOL",
-        detail: 'Locally Deployed Chat Bot And Completely Offline using BPI Data Sets',
+        title: "FreeBooth",
+        detail: 'Free booth is a web application that allows users to create and join virtual photo booths for events and gatherings.',
         date: 'oct-nov, 2024',
         image: freeboothImage
     },
     {
         id:2,
-        title: "CCI Workshop - Weather Application",
-        detail: 'Weather App Using React Tailwind. ',
+        title: "Arcade Thesis",
+        detail: 'Arcade Thesis is a web-based platform that showcases a collection of arcade-style games developed as part of a thesis project.',
         date: 'October 24-28 2024',
         image: arcadeThesis
 
     },
     {
         id:3,
-        title: "Robothinks - Project Neon",
-        detail: 'AI Chat Bot Assistance For ICCT with TTS, STT and Vision.',
+        title: "ERP Frontend (Internship)",
+        detail: 'Converge Training and IT Services is Training and IT Services Company that provides training and IT solutions to businesses.',
         date: 'July - Jan 2024',
         image: erpFrontend
 
     },
     {
         id:4,
-        title: "AppCon - Project Project LUNA",
-        detail: 'Locally Deployed Chat Bot And Completely Offline using BPI Data Sets',
+        title: "Arcangrovion Dashboard",
+        detail: 'Artificial Intelligence (AI) - powered platform that provides insights and analytics for Robot.',
         date: 'July - Jan 2024',
         image: Dashboard
 
