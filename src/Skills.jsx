@@ -2,8 +2,8 @@ import React from 'react'
 import SkillsCapsul from './components/SkillsCapsul'
 import data from './data/skillData.js'
 import pdf from '../public/mongodb_tutorial.pdf'
-
-const Skills = () => {
+import { forwardRef } from 'react'
+const Skills = forwardRef((props, ref) => {
 
   const handleDownload = () => {
     const link = document.createElement("a");
@@ -11,9 +11,6 @@ const Skills = () => {
     link.download = "Certificates.pdf"; // Optional: name of the downloaded file
     link.click();
     }
-
-
-
     function createSkillData(data){
       return (
       <SkillsCapsul
@@ -24,7 +21,7 @@ const Skills = () => {
   }
 
   return (
-    <div>
+    <div ref={ref}>
      <div className='py-20'>
         <h2 className='tracking-heroSpacing font-inter font-semibold text-3xl'>Skills</h2>
         <h3 className='text-2xl'>section</h3>
@@ -73,6 +70,6 @@ const Skills = () => {
       </div>
     </div>
   )
-}
+})
 
 export default Skills

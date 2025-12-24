@@ -2,12 +2,25 @@ import React, { useState } from "react";
 import menu from "../assets/menu.png";
 import NavMenuBar from "./NavMenuBar";
 
-const Navbar = () => {
+
+
+const Navbar = ({projScroll,desigScroll,skillsScroll , contactScroll , homeScroll}) => {
  const [active , setActive] = useState(false)
 
 function handleMenu(){
   {active ? setActive(false) : setActive(true)}
 }
+const navigationLinks = {
+  home: homeScroll,
+  about: "/about",
+  projects: projScroll,
+  designing: desigScroll,
+  skills: skillsScroll,
+  contact: contactScroll,
+}
+
+
+
   return (
     <header className="w-full h-36">
       {/* Navigation Menu */}
@@ -22,28 +35,13 @@ function handleMenu(){
           {/* Desktop Menu */}
           <ul className="max-w-xs hidden sm:flex">
             <div className="pr-10">
-              <li>
-                <a href="">Home</a>
-              </li>
-              <li>
-                <a href="">Project</a>
-              </li>
-            </div>
-            <div className="pr-10">
-              <li>
-                <a href="">About</a>
-              </li>
-              <li>
-                <a href="">Mockups</a>
-              </li>
-            </div>
-            <div className="pr-10">
-              <li>
-                <a href="">Skills</a>
-              </li>
-              <li>
-                <a href="">Contact</a>
-              </li>
+              {
+                Object?.entries(navigationLinks).map(([name, path]) => (
+                  <li  key={name} onClick={path} className="inline-block px-4 hover:text-red-300">
+                    {name.charAt(0).toUpperCase() + name.slice(1)}
+                  </li>
+                ))
+              }
             </div>
           </ul>
 
@@ -57,7 +55,7 @@ function handleMenu(){
 
           {/* Request Button */}
           <div>
-            <button className="bg-white text-black py-2 px-8 font-inter font-semibold hidden sm:flex text-sm">
+            <button onClick={skillsScroll} className="bg-white text-black py-2 px-8 font-inter font-semibold hidden sm:flex text-sm">
               Request Design
             </button>
           </div>

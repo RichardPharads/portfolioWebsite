@@ -1,14 +1,14 @@
 import React from 'react'
 import ProjectCard from './components/ProjectCard.jsx'
 import projectDetails from './data/projectData.js'
-
-const Project = () => {
+import { forwardRef } from 'react'
+const Project = forwardRef(({projectRef}, ref) => {
 
   function createProjectCard(data){
    return  <ProjectCard 
    key={data.id}
    title={data.title}
-   detail={data.detail}
+   detail={data.detail} 
    date={data.date}
    image={data.image} />
    
@@ -17,7 +17,7 @@ const Project = () => {
  
   
   return (
-    <div className='m-auto'>
+    <div className='m-auto' ref={ref}>
       <div className='py-20'>
         <h2 className='tracking-heroSpacing font-inter font-semibold text-3xl'>Project</h2>
         <h3 className='text-2xl'>section</h3>
@@ -39,6 +39,6 @@ const Project = () => {
 
     </div>
   )
-}
+})
 
 export default Project

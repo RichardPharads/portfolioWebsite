@@ -1,10 +1,11 @@
 import React from 'react'
+import image1 from '../src/assets/Design 1.png'
+import image2 from '../src/assets/Design 2 16_9.png'
+import { forwardRef } from 'react'
 
-
-
-const Designing = () => {
+const Designing = forwardRef((props, ref) => {
   return (
-    <div className=''>
+    <div className='' ref={ref}>
       <div className='text-right my-20'>
         <h4 className='text-xl font-light md:text-3xl'>Experience of</h4>
         <h2 className='font-inter text-5xl md:text-8xl'>Designing</h2>
@@ -35,10 +36,10 @@ const Designing = () => {
           
         <div className='flex items-center justify-center w-full sm:w-1/2 h-auto'>
               <div className='flex flex-col'>
-                <img className='w-full hover:scale-90 duration-300 cursor-crosshair' src="https://images.unsplash.com/photo-1734366965512-0f7ec347ab36?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
+                <img className='w-full hover:scale-90 duration-300 cursor-crosshair' src={image2} alt="" />
                 <div className='px-20 py-10'>
-                  <h2 className='text-3xl font-inter font-bold'>Thumnail Design</h2>
-                  <h2 className='font-light'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, et.</h2>
+                  <h2 className='text-3xl font-inter font-bold'>Ecommerce Design</h2>
+                  <h2 className='font-light'>Modern and Elegant Design aim for young stylish people.</h2>
                 </div>
               </div>
             </div>
@@ -46,10 +47,10 @@ const Designing = () => {
           <div className='flex items-center justify-center w-full sm:w-1/2 h-auto'>
               <div className='flex sm:flex-col flex-col-reverse'>
                 <div className='px-20 py-10'>
-                  <h2 className='text-3xl font-inter font-bold'>Thumnail Design</h2>
-                  <h2 className='font-light'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, et.</h2>
+                  <h2 className='text-3xl font-inter font-bold'>Modern Ai Landing Page Design</h2>
+                  <h2 className='font-light'>Artifical Intelligence Modern mockup design best for Startup landing.</h2>
                 </div>
-                <img className='w-full hover:scale-90 duration-300 cursor-crosshair' src="https://images.unsplash.com/photo-1517849845537-4d257902454a" alt="" />
+                <img className='w-full hover:scale-90 duration-300 cursor-crosshair' src={image1} alt="" />
               </div>
             </div>
         </div>
@@ -59,6 +60,6 @@ const Designing = () => {
 
     </div>
   )
-}
+})
 
 export default Designing
