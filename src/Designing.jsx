@@ -11,7 +11,7 @@ const Designing = forwardRef((props, ref) => {
         <h2 className='font-inter text-5xl md:text-8xl'>Designing</h2>
 
 
-        <div className='py-20 flex flex-col gap-10'>
+        <div className='py-10 flex flex-col gap-10 border-y my-10'>
           <marquee behavior="" direction="" className=" duration-500 ease-in-out hover:font-extralight hover:text-gray-500">
             <ul className='flex gap-20 font-inter text-4xl'>
               <li>UI/UX Designer</li>
@@ -32,11 +32,11 @@ const Designing = forwardRef((props, ref) => {
       </div>
 
       <div>
-        <div className='flex flex-col sm:flex-row gap-10'>
+        <div className='flex flex-col sm:flex-row lg:gap-10'>
           
-        <div className='flex items-center justify-center w-full sm:w-1/2 h-auto'>
+        <div className='flex items-center justify-center w-full sm:w-1/2 h-auto left-500'>
               <div className='flex flex-col'>
-                <img className='w-full hover:scale-90 duration-300 cursor-crosshair' src={image2} alt="" />
+                <img className='w-full hover:scale-90 duration-300 cursor-crosshair hover:blur-sm   hover:opacity-80 ' src={image2} alt="" />
                 <div className='lg:px-20 w-10/12 py-10'>
                   <h2 className='text-3xl font-inter font-bold'>Ecommerce Design</h2>
                   <h2 className='font-light'>Modern and Elegant Design aim for young stylish people.</h2>
@@ -50,7 +50,9 @@ const Designing = forwardRef((props, ref) => {
                   <h2 className='text-3xl font-inter font-bold'>Modern Ai Landing Page Design</h2>
                   <h2 className='font-light'>Artifical Intelligence Modern mockup design best for Startup landing.</h2>
                 </div>
-                <img className='w-full hover:scale-90 duration-300 cursor-crosshair' src={image1} alt="" />
+                <div className=' relative'>
+                  <img className='w-full hover:scale-90 duration-300 cursor-crosshair hover:blur-sm   hover:opacity-80 ' src={image1} alt="" />
+                </div>
               </div>
             </div>
         </div>

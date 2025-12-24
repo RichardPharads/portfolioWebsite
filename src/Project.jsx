@@ -18,11 +18,11 @@ const Project = forwardRef(({projectRef}, ref) => {
   
   return (
     <div className='m-auto' ref={ref}>
-      <div className='py-20'>
+      <div className=''>
         <h2 className='tracking-heroSpacing font-inter font-semibold text-3xl'>Project</h2>
         <h3 className='text-2xl'>section</h3>
       </div>
-      <div className='text-right  my-20'>
+      <div className='text-right my-10'>
         <h4 className='text-xl font-light md:text-3xl'>Programming</h4>
         <h2 className='font-inter text-5xl md:text-8xl'>Experience</h2>
       </div>
