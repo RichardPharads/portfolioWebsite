@@ -2,7 +2,7 @@ import React from 'react'
 
 const ProjectCard = (props) => {
   return (
-    <div className='w-full md:w-5/12'>
+    <div key={props.id} className='w-full md:w-5/12'>
       <div className='relative w-full bg-purple-500/5 backdrop-blur-lg my-10' style={{ paddingBottom: '56.25%' /* 16:9 aspect ratio */ }}>
         <img className='absolute items-center w-full h-full object-cover hover:scale-90 duration-300 cursor-crosshair' src={props.image} alt={props.title} />
       </div>

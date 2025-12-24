@@ -12,7 +12,7 @@ function handleMenu(){
 }
 const navigationLinks = {
   home: homeScroll,
-  about: "/about",
+  about: null,
   projects: projScroll,
   designing: desigScroll,
   skills: skillsScroll,

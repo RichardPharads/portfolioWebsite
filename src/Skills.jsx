@@ -16,6 +16,7 @@ const Skills = forwardRef((props, ref) => {
       <SkillsCapsul
         name={data.name}
         image={data.image}
+        key={data.id}
       />
     )
   }

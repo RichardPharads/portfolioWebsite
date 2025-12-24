@@ -1,7 +1,7 @@
 import freeboothImage from '../assets/freebooth.png'
 import arcadeThesis from '../assets/ArcadeThesis.png'
 import erpFrontend from '../assets/ERP.png'
-import Dashboard from '../assets/Dashboard.png'
+import Dashboard from '../assets/dashboard.png'
 const projectDetails = [
     {   id:1,
         title: "FreeBooth",

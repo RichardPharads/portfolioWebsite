@@ -17,62 +17,78 @@ import terminal from '../assets/terminal.png'
 const data = [
     {
         name:'HTML',
-        image:html
+        image:html,
+        id:1
+
     },
     {
         name:'Figma',
-        image:figma
+        image:figma,
+        id:2
     },
     {
         name:'JavaScript',
-        image:javascript
+        image:javascript,
+        id:3
     },  {
         name:'Python',
-        image:python
+        image:python,
+        id:4
     }
     ,
     {
         name:'CSS',
-        image:css
+        image:css,
+        id:5
     },  {
         name:'React',
-        image:react
+        image:react,
+        id:6
     }
     ,
     {
         name:'Node.js',
-        image:node
+        image:node,
+        id:7
     },  {
         name:'PHP',
-        image:php
+        image:php,
+        id:8
     }
     ,
     {
         name:'Adobe PS',
-        image:adobe
+        image:adobe,
+        id:9
     },  {
         name:'MySQL',
-        image:sql
+        image:sql,
+        id:10
     }
     ,
     {
         name:'Java',
-        image:java
+        image:java,
+        id:11
     },  {
         name:'Bootstrap',
-        image:bootstrap
+        image:bootstrap,
+        id:12
     }
     ,
     {
         name:'Git',
-        image:git
+        image:git,
+        id:13
     },  {
         name:'Adobe XD',
-        image:xd
+        image:xd,
+        id:14
     }
     ,  {
         name:'Terminal',
-        image:terminal
+        image:terminal,
+        id:15
     }
 ]
 
