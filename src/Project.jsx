@@ -10,7 +10,9 @@ const Project = forwardRef(({props}, ref) => {
    title={data.title}
    detail={data.detail} 
    date={data.date}
-   image={data.image} />
+   image={data.image}
+   url={data.url}
+   />
    
   }
 

@@ -5,13 +5,19 @@ const ProjectCard = (props) => {
     setHoverState(true);
   }
 
+  function handleMouseLeave() {
+    setHoverState(false);
+  }
+
   return (
     <div key={props.id} className='w-full md:w-5/12 '>
       <div className='relative w-full bg-purple-500/5 backdrop-blur-lg my-5' onMouseEnter={handleMouseEnter} 
-       onMouseLeave={() => setHoverState(false)} style={{ paddingBottom: '56.25%' /* 16:9 aspect ratio */ }}>
+       onMouseLeave={handleMouseLeave} style={{ paddingBottom: '56.25%' /* 16:9 aspect ratio */ }}>
         {hoverState && (
-          <div className='absolute w-full h-full bg-black/50 z-10 flex items-center justify-center text-white text-2xl'>
-            View Project
+          <div onClick={() => {
+            window.open(`${props?.url.link}`, '_blank' , "noopener,noreferrer");
+          }} className='absolute cursor-pointer w-full h-full bg-black/50 z-10 flex items-center justify-center text-white text-2xl'>
+            {props?.url.text || "View Project"}
           </div>
         )}
         <img className={`absolute items-center w-full h-full object-cover ${hoverState ? 'blur-sm scale-90' : ''} duration-300 cursor-crosshair`} src={props.image} alt={props.title} />
