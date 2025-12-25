@@ -50,8 +50,13 @@ const Skills = forwardRef((props, ref) => {
             <div className='w-full text-center py-7  bg-custom-gradient rounded-xl'>
               <h2 className='font-instrument font-extralight px-10'><span className=' pr-1'>my</span> <span className='font-inter text-lg'>2024</span> <br /> <span className=' text-3xl capitalize'>achivement</span></h2>
             </div>
-            <div>
-              <button onClick={handleDownload} className='font-inter text-md text-center border rounded-lg w-full'>View Certificate</button>
+            <div className='flex gap-2 '>
+              <button onClick={() => {
+                window.open('https://vfdmmynf7t1tehvp.public.blob.vercel-storage.com/PDF%20Filesa/Certificates.pdf', '_blank', 'noopener,noreferrer');
+              }} className='font-inter text-md text-center  rounded-lg w-full h-12 hover:scale-90 duration-500 bg-neutral-900 text-white ease-in-out'>View Certificate</button>
+              <button onClick={() => {
+                window.open('https://vfdmmynf7t1tehvp.public.blob.vercel-storage.com/PDF%20Filesa/RichardCandidoParadoResume2025.pdf', '_blank', 'noopener,noreferrer');
+              }} className='font-inter text-md text-center  rounded-lg w-full h-12 hover:scale-90 bg-neutral-900 text-white  duration-500 ease-in-out'>View Resume</button>
             </div>
           </div>
 
@@ -61,7 +66,7 @@ const Skills = forwardRef((props, ref) => {
       <div className='max-w-lg'>
         <h2 className='text-2xl font-light '>Showcasing my commitment to continuous learning and professional growth:
 
-</h2>
+      </h2>
 
       </div>
       </div>
