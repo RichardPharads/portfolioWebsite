@@ -22,7 +22,7 @@ const Skills = forwardRef((props, ref) => {
   }
 
   return (
-    <div ref={ref}>
+    <div ref={ref} className='className="overflow-x-hidden"'>
      <div className='py-20'>
         <h2 className='tracking-heroSpacing font-inter font-semibold text-3xl'>Skills</h2>
         <h3 className='text-2xl'>section</h3>

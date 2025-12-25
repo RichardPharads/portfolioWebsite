@@ -5,7 +5,7 @@ import { forwardRef } from 'react'
 
 const Designing = forwardRef((props, ref) => {
   return (
-    <div className='' ref={ref}>
+    <div className='className="overflow-x-hidden"' ref={ref}>
       <div className='text-right my-20'>
         <h4 className='text-xl font-light md:text-3xl'>Experience of</h4>
         <h2 className='font-inter text-5xl md:text-8xl'>Designing</h2>

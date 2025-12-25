@@ -2,7 +2,7 @@ import React from 'react'
 import ProjectCard from './components/ProjectCard.jsx'
 import projectDetails from './data/projectData.js'
 import { forwardRef } from 'react'
-const Project = forwardRef(({projectRef}, ref) => {
+const Project = forwardRef(({props}, ref) => {
 
   function createProjectCard(data){
    return  <ProjectCard 
@@ -17,7 +17,7 @@ const Project = forwardRef(({projectRef}, ref) => {
  
   
   return (
-    <div className='m-auto' ref={ref}>
+    <div className='m-auto className="overflow-x-hidden"' ref={ref}>
       <div className=''>
         <h2 className='tracking-heroSpacing font-inter font-semibold text-3xl'>Project</h2>
         <h3 className='text-2xl'>section</h3>
