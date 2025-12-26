@@ -47,12 +47,31 @@ const Skills = forwardRef((props, ref) => {
 
         <div className=' flex flex-col justify-center  sm:flex-row gap-10 py-20'>
 
-          <div className='w-80 grid gap-2'>
-            <div className='w-full text-center py-7  bg-custom-gradient rounded-xl'>
-              <h2 className='font-instrument font-extralight px-10'><span className=' pr-1'>my</span> <span className='font-inter text-lg'>2024</span> <br /> <span className=' text-3xl capitalize'>achivement</span></h2>
-            </div>
-           
-          </div>
+         <div className="w-80 grid gap-2">
+  <div
+    className="
+      w-full
+      text-center
+      py-7
+      rounded-xl
+      border border-gray-800
+      bg-custom-gradient
+      bg-white/10
+      backdrop-blur-md
+      shadow-lg
+      mix-blend-color-dodge
+      duration-500
+     
+    "
+  >
+    <h2 className="font-instrument font-extralight px-10 text-white">
+      <span className="pr-1">my</span>
+      <span className="font-inter text-lg">2024</span>
+      <br />
+      <span className="text-3xl capitalize">achievement</span>
+    </h2>
+  </div>
+</div>
 
 
        
