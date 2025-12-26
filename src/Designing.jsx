@@ -36,7 +36,7 @@ const Designing = forwardRef((props, ref) => {
           
         <div className='flex items-center justify-center w-full sm:w-1/2 h-auto left-500'>
               <div className='flex flex-col'>
-                <img className='w-full hover:scale-90 duration-300 cursor-crosshair hover:blur-sm   hover:opacity-80 ' src={image2} alt="" />
+                <img className='w-full hover:scale-90 duration-300 cursor-crosshair hover:blur-sm   hover:opacity-80 ' src="https://vfdmmynf7t1tehvp.public.blob.vercel-storage.com/Images/Design%202%2016_9.png" alt="Ecommerce Design" />
                 <div className='lg:px-20 w-10/12 py-10'>
                   <h2 className='text-3xl font-inter font-bold'>Ecommerce Design</h2>
                   <h2 className='font-light'>Modern and Elegant Design aim for young stylish people.</h2>
@@ -51,7 +51,7 @@ const Designing = forwardRef((props, ref) => {
                   <h2 className='font-light'>Artifical Intelligence Modern mockup design best for Startup landing.</h2>
                 </div>
                 <div className=' relative'>
-                  <img className='w-full hover:scale-90 duration-300 cursor-crosshair hover:blur-sm   hover:opacity-80 ' src={image1} alt="" />
+                  <img className='w-full hover:scale-90 duration-300 cursor-crosshair hover:blur-sm   hover:opacity-80 ' src="https://vfdmmynf7t1tehvp.public.blob.vercel-storage.com/Images/Design%201.png" alt="Landing Page Design" />
                 </div>
               </div>
             </div>

@@ -36,7 +36,7 @@ const Navbar = ({
    
       {/* Navbar */}
       <div className="fixed top-0   z-50 flex justify-between items-center w-full max-w-7xl h-36  pr-10 mix-blend-exclusion">
-        <div className="font-inter font-bold text-lg ">Cultivate</div>
+        <div className="font-inter font-bold text-lg ">Richard Parado</div>
 
         <div className="flex items-center gap-6 font-inter">
           {/* Desktop Menu */}
@@ -62,7 +62,7 @@ const Navbar = ({
 
           {/* Desktop Button */}
           <button
-            onClick={skillsScroll}
+            onClick={contactScroll}
             className="hidden sm:block bg-white text-black py-2 px-8 font-semibold text-sm"
           >
             Request Design
