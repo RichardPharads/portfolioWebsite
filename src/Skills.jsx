@@ -3,6 +3,7 @@ import SkillsCapsul from './components/SkillsCapsul'
 import data from './data/skillData.js'
 import pdf from '../public/mongodb_tutorial.pdf'
 import { forwardRef } from 'react'
+import eye from '../src/assets/eye.png'
 const Skills = forwardRef((props, ref) => {
 
   const handleDownload = () => {
@@ -30,7 +31,7 @@ const Skills = forwardRef((props, ref) => {
 
       <div>
         <h2 className='font-inter text-4xl mx-20 text-center'>Technical Skills</h2>
-        <div className='flex justify-center gap-6 flex-wrap  max-w-5xl m-auto py-20'>
+        <div className='flex justify-center gap-6 flex-wrap  max-w-5xl m-auto py-20 group'>
           
           {data.map(createSkillData)}
         </div>
@@ -44,28 +45,41 @@ const Skills = forwardRef((props, ref) => {
       <h2 className='font-inter text-4xl  text-center '>Certificates</h2>
 
 
-        <div className=' flex flex-col justify-center items-center sm:flex-row gap-10 py-20'>
+        <div className=' flex flex-col justify-center  sm:flex-row gap-10 py-20'>
 
           <div className='w-80 grid gap-2'>
             <div className='w-full text-center py-7  bg-custom-gradient rounded-xl'>
               <h2 className='font-instrument font-extralight px-10'><span className=' pr-1'>my</span> <span className='font-inter text-lg'>2024</span> <br /> <span className=' text-3xl capitalize'>achivement</span></h2>
             </div>
-            <div className='flex gap-2 '>
-              <button onClick={() => {
-                window.open('https://vfdmmynf7t1tehvp.public.blob.vercel-storage.com/PDF%20Filesa/Certificates.pdf', '_blank', 'noopener,noreferrer');
-              }} className='font-inter text-md text-center  rounded-lg w-full h-12 hover:scale-90 duration-500 bg-neutral-900 text-white ease-in-out'>View Certificate</button>
-              <button onClick={() => {
-                window.open('https://vfdmmynf7t1tehvp.public.blob.vercel-storage.com/PDF%20Filesa/RichardCandidoParadoResume2025.pdf', '_blank', 'noopener,noreferrer');
-              }} className='font-inter text-md text-center  rounded-lg w-full h-12 hover:scale-90 bg-neutral-900 text-white  duration-500 ease-in-out'>View Resume</button>
-            </div>
+           
           </div>
 
 
        
       
-      <div className='max-w-lg'>
+      <div className='max-w-lg flex flex-col bewtween h-[100px]'>
         <h2 className='text-2xl font-light '>Showcasing my commitment to continuous learning and professional growth:
+           <div className='flex gap-2 py-5'>
+              <button onClick={() => {
+                window.open('https://vfdmmynf7t1tehvp.public.blob.vercel-storage.com/PDF%20Filesa/Certificates.pdf', '_blank', 'noopener,noreferrer');
+              }} className='text-sm flex items-center gap-2 bg-neutral-900 border border-neutral-600 px-5 py-2 rounded-lg hover:bg-white/10 duration-500'>
+                <img src={eye} className='w-[20px] ' alt="eye icon" />
+                Certificates 
+              </button>
 
+              <button onClick={() => {
+                window.open('https://vfdmmynf7t1tehvp.public.blob.vercel-storage.com/PDF%20Filesa/RichardCandidoParadoResume2025.pdf', '_blank', 'noopener,noreferrer');
+              }} className='text-sm flex items-center gap-2 bg-neutral-900 border border-neutral-600 px-5 py-2 rounded-lg hover:bg-white/10 duration-500'>
+                <img src={eye} className='w-[20px] ' alt="eye icon" />
+                Resume 
+              </button>
+
+
+
+
+
+              
+            </div>
       </h2>
 
       </div>

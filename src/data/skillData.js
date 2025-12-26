@@ -1,93 +1,78 @@
-import html from '../assets/html-5.png'
-import figma from '../assets/figma.png'
-import javascript from '../assets/js.png'
-import python from '../assets/python.png'
-import css from '../assets/css.png'
-import react from '../assets/react.png'
-import node from '../assets/node.png'
-import php from '../assets/php.png'
-import adobe from '../assets/ps.png'
-import sql from '../assets/mysql.png'
-import java from '../assets/java.png'
-import bootstrap from '../assets/bootstrap.png'
-import git from '../assets/git.png'
-import xd from '../assets/xd.png' 
-import terminal from '../assets/terminal.png'
 
 const data = [
     {
-        name:'HTML',
-        image:html,
+        name:'Bash/Shell Scripting',
+        image:'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bash/bash-original.svg',
         id:1
 
     },
     {
         name:'Figma',
-        image:figma,
+        image:'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg',
         id:2
     },
     {
         name:'JavaScript',
-        image:javascript,
+        image:'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg',
         id:3
     },  {
-        name:'Python',
-        image:python,
+        name:'Linux',
+        image:'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg',
         id:4
     }
     ,
     {
-        name:'CSS',
-        image:css,
+        name:'Zustand',
+        image:'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/zustand/zustand-original.svg',
         id:5
     },  {
         name:'React',
-        image:react,
+        image:'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg',
         id:6
     }
     ,
     {
         name:'Node.js',
-        image:node,
+        image:'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg',
         id:7
     },  {
-        name:'PHP',
-        image:php,
+        name:'NPM',
+        image:'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/npm/npm-original.svg',
         id:8
     }
     ,
     {
-        name:'Adobe PS',
-        image:adobe,
+        name:'MongoDB',
+        image:'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg',
         id:9
     },  {
         name:'MySQL',
-        image:sql,
+        image:'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redux/redux-original.svg',
         id:10
     }
     ,
     {
-        name:'Java',
-        image:java,
+        name:'docker',
+        image:" https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg",
         id:11
     },  {
         name:'Bootstrap',
-        image:bootstrap,
+        image:'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg',
         id:12
     }
     ,
     {
         name:'Git',
-        image:git,
+        image:'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg',
         id:13
     },  {
-        name:'Adobe XD',
-        image:xd,
+        name:'Next Js',
+        image:'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg',
         id:14
     }
     ,  {
-        name:'Terminal',
-        image:terminal,
+        name:'React Router',
+        image:'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/reactrouter/reactrouter-original.svg',
         id:15
     }
 ]
