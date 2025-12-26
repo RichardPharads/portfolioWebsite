@@ -8,13 +8,13 @@ const Hero = forwardRef(({_ }, ref) => {
   const {scrollY} = ScrollTracker()
   return (
     <div className='w-full mb-10 justify-between flex lg:flex-row flex-col-reverse' ref={ref}>
-      <div className="w-32 h-full bg-gradient-to-r from-purple-800 via-blue-500 to-pink-500 rounded-full blur-3xl absolute top-60 left-0 -z-10 filter "></div>
+      <div className="w-32 h-full bg-gradient-to-r from-purple-800 via-blue-500 to-pink-500 rounded-full blur-3xl absolute top-60 left-0 -z-10 filter animate-pulse "></div>
 
       <div className='flex-1'>
         <div className='flex flex-col  gap-10 '>
           <MotionWrapper>
           <h1 className='font-inter text-5xl sm-text-6xl md:text-7xl lg:text-8xl uppercase leading-heroLine tracking-heroSpacing text-left'>i'm  <br />Software <br /> Engineer </h1>
-          <button className='bg-white text-black py-2 px-10 w-fit font-inter font-semibold' > Get in touch</button>
+          <button className='bg-white text-black py-2 px-10 w-fit font-inter font-semibold my-4' > Get in touch</button>
           <h2 className='text-right lg:text-left py-10'>Richard Parado, Web <br /> Developer in the  <br />Philippines </h2>
 
           </MotionWrapper>
@@ -43,8 +43,8 @@ const Hero = forwardRef(({_ }, ref) => {
       </div>
 
       <div className='relative flex-1'>
-        <img className='w-[700px] h-fit items-center z-10'  src="https://vfdmmynf7t1tehvp.public.blob.vercel-storage.com/Images/wala%20lang.png" alt="Richard Image" />
-        <img className='w-[700px] h-fit items-center blur-2xl  absolute top-0 z-0 mix-blend-hue '  src="https://vfdmmynf7t1tehvp.public.blob.vercel-storage.com/Images/wala%20lang.png" alt="" />
+        <img className='w-full lg:[w-900px] h-fit items-center z-10'  src="https://vfdmmynf7t1tehvp.public.blob.vercel-storage.com/Images/wala%20lang.png" alt="Richard Image" />
+        <img className='w-[900px] h-fit items-center blur-2xl  absolute top-0 z-0 mix-blend-hue '  src="https://vfdmmynf7t1tehvp.public.blob.vercel-storage.com/Images/wala%20lang.png" alt="" />
 
       </div>
       
