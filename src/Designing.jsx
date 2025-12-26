@@ -1,6 +1,4 @@
 import React from 'react'
-import image1 from '../src/assets/Design 1.png'
-import image2 from '../src/assets/Design 2 16_9.png'
 import { forwardRef } from 'react'
 
 const Designing = forwardRef((props, ref) => {
