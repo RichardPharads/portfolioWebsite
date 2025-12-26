@@ -15,7 +15,7 @@ const App = () => {
   const designRef = useRef(null);
   const skillsRef = useRef(null);
   
-  const scrollTo= (ref) => {
+const scrollTo= (ref) => {
     ref.current.scrollIntoView({ behavior: "smooth" });
   };
 
