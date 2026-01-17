@@ -1,3 +1,4 @@
+import { details, link } from "framer-motion/client"
 
 const projectDetails = [
     {   id:1,
@@ -44,7 +45,16 @@ const projectDetails = [
             text: "View Github"
         }
 
-    },
+    },{
+        id:5,
+        title: "Blog Website",
+        details: "Simple Blog post website - Allow user to post blog and comment",
+        image: "https://vfdmmynf7t1tehvp.public.blob.vercel-storage.com/Images/Blog-Project",
+        url: {
+            link: "https://blog-omega-dusky.vercel.app/",
+            text: "View Project"
+        }
+    }
 ]
 
 
