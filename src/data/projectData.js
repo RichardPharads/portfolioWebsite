@@ -45,16 +45,33 @@ const projectDetails = [
             text: "View Github"
         }
 
-    },{
+    }
+    ,
+    {
         id:5,
         title: "Blog Website",
-        details: "Simple Blog post website - Allow user to post blog and comment",
-        image: "https://vfdmmynf7t1tehvp.public.blob.vercel-storage.com/Images/Blog-Project",
-        url: {
+        detail: 'Blog web application, user can create , update and comment to other blog post.',
+        date: 'jan 5 - Jan 10 2024',
+        image:'https://vfdmmynf7t1tehvp.public.blob.vercel-storage.com/Images/Blog-Project',
+         url: {
             link: "https://blog-omega-dusky.vercel.app/",
-            text: "View Project"
+            text: "View Deployment"
         }
+
+    },
+    {
+        id:6,
+        title: "Chroma Ecommerce ",
+        detail: 'E-commerce Web application , Handling payment with Stripe and authenicate with google Auth2.0 and github provider.',
+        date: 'jan - Jan, 2026',
+        image: 'https://vfdmmynf7t1tehvp.public.blob.vercel-storage.com/Images/ChromaEcommerce',
+         url: {
+            link: "https://chroma-ecommerce-beta.vercel.app/products",
+            text: "Deployed"
+        }
+
     }
+
 ]
 
 

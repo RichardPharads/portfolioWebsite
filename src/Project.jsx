@@ -19,9 +19,9 @@ const Project = forwardRef(({props}, ref) => {
  
   
   return (
-    <div className='m-auto className="overflow-x-hidden"' ref={ref}>
+    <div className='m-auto className="overflow-x-hidden h-fit' ref={ref}>
       <div className=''>
-        <h2 className='tracking-heroSpacing font-inter font-semibold text-3xl'>Project</h2>
+        <h2 className='tracking-heroSpacing font-inter text-3xl'>Project</h2>
         <h3 className='text-2xl'>section</h3>
       </div>
       <div className='text-right my-10'>
