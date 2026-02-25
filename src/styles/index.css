@@ -6,4 +6,7 @@ html {
   background-color: #0e0017;
   color: white;
   scroll-behavior: smooth;
+  scrollbar-width: none;
 }
+
+
